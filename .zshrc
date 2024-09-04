@@ -188,4 +188,6 @@ source ~/.zoxide-init.zsh
 eval "$(/opt/homebrew/bin/mise activate zsh)"
 alias mr="mise run --"
 
+source ~/.zshrc-local.zsh
+
 
