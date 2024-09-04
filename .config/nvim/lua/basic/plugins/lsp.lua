@@ -26,12 +26,7 @@ return {
       'aznhe21/actions-preview.nvim',
     },
     config = function()
-      require('mason').setup({
-        registries = {
-          "github:mason-org/mason-registry",
-          "file:~/.config/nvim/mason-registry", -- directory of the cloned fork
-        }
-      })
+      require('mason').setup({})
       local lsp_zero = require('lsp-zero')
       local builtin = require('telescope.builtin')
 
