@@ -1,6 +1,7 @@
 -- TODO Checkout https://github.com/LintaoAmons/bookmarks.nvim
 return {
-  dir = "~/development/neovim-plugins/bookmarks.nvim",
+  "antonbasic/bookmarks.nvim",
+  -- dir = "~/development/neovim-plugins/bookmarks.nvim",
   event = "VimEnter",
   config = function()
     require('bookmarks').setup {

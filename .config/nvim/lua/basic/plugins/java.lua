@@ -2,7 +2,7 @@ local java_cmds = vim.api.nvim_create_augroup('java_cmds', { clear = true })
 
 return {
   "mfussenegger/nvim-jdtls",
-  dir = "~/development/neovim-plugins/nvim-jdtls",
+  -- dir = "~/development/neovim-plugins/nvim-jdtls",
   branch = "master",
   ft = { "java", "groovy" },
   dependencies = {

@@ -29,8 +29,8 @@ return {
   --   end,
   -- },
   {
-    -- 'nvim-telekasten/telekasten.nvim',
-    dir = "~/development/neovim-plugins/telekasten.nvim",
+    'antonbasic/telekasten.nvim',
+    -- dir = "~/development/neovim-plugins/telekasten.nvim",
     dependencies = {
       'nvim-telescope/telescope.nvim',
       'nvim-telekasten/calendar-vim',
